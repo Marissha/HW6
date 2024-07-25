@@ -1,0 +1,17 @@
+print('Задание №1')
+my_dict = {'Marina':1998, 'Nikolay':1996, 'Elena':1994, 'Alexey':1995}
+print('Словарь my_dict: ', my_dict)
+print('Значение к ключу "Marina": ', my_dict['Marina'])
+my_dict.update({'Anzela':1997 ,'Irina':1999})
+print('Словарь  дополненный двумя парами значений: ', my_dict)
+a = my_dict.pop('Alexey')
+print('Значение удаленного ключа "Alexey": ', a)
+print('Словарь "my_dict" после удаления одной из пар: ', my_dict)
+print('------------------------------------------------------------')
+print('Задание №2')
+my_set = {1, 3, 3, 5, 1, 5, 3, 8, 0, 0, 9, 1, 'A', 'A', 'Q', 'w', 'Q'}
+print('Множество my_set: ', my_set)
+my_set.update( 's',  'j')
+print('Множество my_set дополненное двумя значениями: ', my_set)
+my_set.discard('w')
+print('Множество my_set, после удаления одного значения: ', my_set)
